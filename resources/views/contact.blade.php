@@ -1,5 +1,6 @@
 <div>
-<form method = 'post' action = '{{ route("contacts.store") }}'>
+    <h1>Contact Form</h1>
+    <form method = 'post' action = '{{ route("contacts.store") }}'>
     @csrf
     <input type="text" name="name" placeholder="Name">
     <input type="email" name="email" placeholder="Email">
